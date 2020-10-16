@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::post('/rate', App\Http\Controllers\Rating\Post::class)->name('rate.post');
+Route::get('/rate', App\Http\Controllers\Rating\Create::class)->name('rate.create');
